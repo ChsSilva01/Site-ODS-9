@@ -18,7 +18,8 @@
     background-color: #F26A2E;
 }
 #img{
-    left: 30%;
+    width: 200px;
+    height: 150px;
 }
 #tittle{
     text-align: center;
