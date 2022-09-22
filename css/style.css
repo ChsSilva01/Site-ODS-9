@@ -1,8 +1,53 @@
-.footer{
-    top: 0;
-    left: 0;
-    max-width: 100px;
-    max-height: 10px;
-    background-color: #ff0000;
+#cor{
+    background-color: #F26A2E;
+}
+.wraaper{
+    width: 100%;
+    height: 900vh;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    background-color: #EA9D7B;
+}
+#inicio{
+    width: 100%;
+    height: 3%;
+    top: 0%;
+    left: 0%;
+    position: relative;
+    background-color: #F26A2E;
+}
+.img{
+    width: 5%;
+    height: 5%;
+    top: 7%;
+    left: 5%;
+    position: relative;
+}
+.tittle{
+    text-align: center;
+    color: #ffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 97px;
+}
+.text{
+    padding-left: 10px;
+    color: #ffff;
+}
+#text-ods{
+    width: 15vw;
+    height: 20vh;
+    right: -80%;
+    top: 0.5%;
+    position: relative;
+}
+#text-ods_2{
+    width: 75vw;
+    height: 5vh;
+    left: -10%;
+    top: 1%;
     position: relative;
 }
