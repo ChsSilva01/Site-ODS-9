@@ -68,7 +68,7 @@ function importanciaobj(){
     for(f=0;f<=1;f++){
         document.write(
             "<tr>"+
-                "<th><p class='f-6'><b>"+x[f].getElementsByTagName("texto-obj")[0].childNodes[0].nodeValue+"</b></p>"+
+                "<th><p id='seila'><b>"+x[f].getElementsByTagName("texto-obj")[0].childNodes[0].nodeValue+"</b></p>"+
                 "</th>"+
               "</tr>"
         );
@@ -196,7 +196,7 @@ function ImgB(){
     for(a=0;a<=1;a++){
         document.write(
             "<tr>"+
-                "<th> <p class='f-6'>"+x[a].getElementsByTagName("TXT_B")[0].childNodes[0].nodeValue+"</p></th>"+
+                "<th> <p id='seila'>"+x[a].getElementsByTagName("TXT_B")[0].childNodes[0].nodeValue+"</p></th>"+
                 "<th><img src='img/"+x[a].getElementsByTagName("Img_B")[0].childNodes[0].nodeValue+"' id='img'></th>"+
             "</tr>"
     );
@@ -210,7 +210,7 @@ function graf(){
 
 function T_M(){
     for(i=0;i<=1;i++){
-        document.write("<p id='tittle'>"+x[i].getElementsByTagName("M")[0].childNodes[0].nodeValue+"</p>" + "<b><p class='f-6'> "+ x[i].getElementsByTagName("T-M")[0].childNodes[0].nodeValue+"</b></p>"+"<center> <img src='img/"+x[i].getElementsByTagName("IMG_Rank")[0].childNodes[0].nodeValue +"' class='img-fluid my-5'>  </center>");
+        document.write("<p id='tittle'>"+x[i].getElementsByTagName("M")[0].childNodes[0].nodeValue+"</p>" + "<b><p id='seila'> "+ x[i].getElementsByTagName("T-M")[0].childNodes[0].nodeValue+"</b></p>"+"<center> <img src='img/"+x[i].getElementsByTagName("IMG_Rank")[0].childNodes[0].nodeValue +"' class='img-fluid my-5'>  </center>");
     }
 }
 
@@ -218,12 +218,12 @@ function Outro_Lado(){
     for(i=0;i<=1;i++){
         document.write("<p id='tittle'>"+x[i].getElementsByTagName("moeda")[0].childNodes[0].nodeValue+"<divclass='table-responsive'id='seila'><table class='table-borderless'>"+
             "<tr>"+
-              "<th><p class='f-6'>"+x[i].getElementsByTagName("T_moeda")[0].childNodes[0].nodeValue +"</p></th>"+"<th><img src='img/"+x[i].getElementsByTagName("img_moeda")[0].childNodes[0].nodeValue+"'id='img'></th>"+
+              "<th><p id='seila'>"+x[i].getElementsByTagName("T_moeda")[0].childNodes[0].nodeValue +"</p></th>"+"<th><img src='img/"+x[i].getElementsByTagName("img_moeda")[0].childNodes[0].nodeValue+"'id='img'></th>"+
               "</tr>"+"</table>"
 
               +"<divclass='table-responsive p-1><table class='table-borderless'>"+
           "<tr>"+
-            "<th class='text-fluid'><p class='f-6'>"+x[i].getElementsByTagName("T2_moeda")[0].childNodes[0].nodeValue +"</p></th>"+"<th><img src='img/"+x[i].getElementsByTagName("img2_moeda")[0].childNodes[0].nodeValue+"' id='img'></th>"+
+            "<th class='text-fluid'><p id='seila'>"+x[i].getElementsByTagName("T2_moeda")[0].childNodes[0].nodeValue +"</p></th>"+"<th><img src='img/"+x[i].getElementsByTagName("img2_moeda")[0].childNodes[0].nodeValue+"' id='img'></th>"+
             "</tr>"+
         "</table>");
     }
