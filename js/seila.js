@@ -210,7 +210,7 @@ function graf(){
 
 function T_M(){
     for(i=0;i<=1;i++){
-        document.write("<p id='tittle'>"+x[i].getElementsByTagName("M")[0].childNodes[0].nodeValue+"</p>" + "<b><p id='seila'> "+ x[i].getElementsByTagName("T-M")[0].childNodes[0].nodeValue+"</b></p>"+"<center> <img src='img/"+x[i].getElementsByTagName("IMG_Rank")[0].childNodes[0].nodeValue +"' class='img-fluid my-5'>  </center>");
+        document.write("<p id='tittle'>"+x[i].getElementsByTagName("M")[0].childNodes[0].nodeValue+"</p>" + "<b><p id='seila'> "+ x[i].getElementsByTagName("T-M")[0].childNodes[0].nodeValue+"</b></p>"+"<center> <img src='img/"+x[i].getElementsByTagName("IMG_Rank")[0].childNodes[0].nodeValue +"' class='img-fluid my-5'></center>");
     }
 }
 
