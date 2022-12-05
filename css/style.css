@@ -25,6 +25,8 @@
 #img{
     width: 200px;
     height: 150px;
+    right: 0px;
+    top: 0px;
 }
 #tittle{
     text-align: center;
