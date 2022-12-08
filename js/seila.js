@@ -377,3 +377,32 @@ function rodape(){
         document.write("<img src='img/"+x[i].getElementsByTagName("imagem-rodape")[0].childNodes[0].nodeValue+"' class='img-fluid'>");
     }
 }
+
+function titulo12(){
+    for(i=0;i<1;i++){
+        document.write("<h1 id='tittle'>"+x[i].getElementsByTagName("titulo-1")[0].childNodes[0].nodeValue+"</h1>");
+    }
+}
+//AAAAAAAAAAAAAAAAAAA
+function funcaoConteudo(){
+    for(i=1;i<4;i++){     
+        document.write(
+                "<h1 id='tittle1'>"+x[i].getElementsByTagName("titulo1")[0].childNodes[0].nodeValue+"</h1>"+
+                "<p class='f-6'><b>"+x[i].getElementsByTagName("corpo1")[0].childNodes[0].nodeValue.substr(0,500)+"<a href='postagem.html?codigo_postagem="+i+"'>...</a></b></p>"
+        );
+
+    }            
+}
+function funcaoPostagem(){
+    //Armazenar a URL completa, ex:http://127.0.0.1/pw1/Projeto-blog-2/postagem.html?codigo_postagem=1
+    url = new URL(window.location.href)
+    //Armazena somente o parâmetro da URL, ex:codigo_postagem=1
+    parametro = url.searchParams;
+    //Armazebar somente o valor do parâmetro da URL, ex: 1
+    i = parametro.get("codigo_postagem");
+         
+        document.write(
+                "<h1 id='tittle1'>"+x[i].getElementsByTagName("titulo1")[0].childNodes[0].nodeValue+"</h1>"+
+                "<p class='f-6'><b>"+x[i].getElementsByTagName("corpo1")[0].childNodes[0].nodeValue+"</b></p>"
+        );
+}            

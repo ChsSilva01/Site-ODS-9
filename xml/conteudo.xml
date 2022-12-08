@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <wraaper>
     <corpo codigo="1">
 <!--Introdução-->    
@@ -115,5 +116,35 @@
     <img2_moeda>Sub_2.png</img2_moeda>
 
     <imagem-rodape>Footer.png</imagem-rodape>
+    
+    <titulo-1>Notícias</titulo-1>
+     </corpo>
+
+<!-- Notícia -->
+        
+      <corpo codigo="2">
+        <titulo1>Infraestrutura está entre prioridades, diz governo de transição no 95º ENIC</titulo1>
+        <corpo1>Os projetos de infraestrutura devem ser prioridade do próximo governo, destacou a integrante da equipe de transição na área de Cidades, Miriam Belchior, durante a 95ª edição do Encontro Nacional da Indústria da Construção (ENIC). O evento, realizado pela Câmara Brasileira da Indústria da Construção (CBIC), aconteceu nesta quarta-feira (7), em Brasília.
+        Segundo Miriam, o Brasil teve uma grande redução na taxa de investimento nos últimos anos e que Ao tema da infraestrutura está no topo da agenda de prioridades do presidente eleito Luiz Inácio Lula da Silva, em seu próximo governo. 
+        “O plano de investimento em infraestrutura que o Lula tem falado é um dos pilares da nossa estratégia nacional de desenvolvimento para que o país volte a crescer e a criar empregos de qualidade”, afirmou. 
+        Para o período inicial do governo, a ex-ministra de Planejamento e ex-presidente da Caixa Econômica Federal destacou que será preciso agir de forma emergencial para acelerar os projetos que estão em andamento e, a partir disso, atuar estrategicamente para montar uma carteira de obras públicas e privadas e intensificar o investimento no país. Entre os exemplos citados para que os investimentos aconteçam mais rapidamente, está a retomada de obras paradas, dar maior ritmo às obras públicas e, no caso das concessões, acelerar os processos de revisão e reequilíbrio de contratos.  
+        Ricardo Portella, vice-presidente da CBIC, destacou a preocupação com o teto de gastos e a possibilidade de ausência de recursos para investimentos. “Na nossa visão os investimentos jamais deveriam ter entrado no teto de gasto porque outras despesas cresceram além da inflação e tomaram espaço do investimento’’, comentou.</corpo1>
+        
     </corpo>
+     <corpo codigo="3">
+        <titulo1>Missões industriais lideradas pelo SENAI são destaque na 20ª Conferência ANPEI de Inovação</titulo1>
+        <corpo1>A descarbonização da economia mundial é um dos principais objetivos para a sustentabilidade do mundo nos próximos anos. Para alcançar a meta, a produção de hidrogênio verde e o estímulo à economia circular podem significar um grande passo para o alcance dos compromissos pactuados nos acordos climáticos mundiais. As principais missões industriais promovidas pelo Serviço Nacional de Aprendizagem Industrial (SENAI) com incentivo a esses dois eixos produtivos receberam destaque na 20ª Conferência ANPEI de Inovação, nesta quinta-feira (1º). 
+        A Conferência da Associação Nacional de Pesquisa e Desenvolvimento de Empresas Inovadoras (ANPEI) celebrou 20 edições e retomou a programação presencial, após dois anos de edições virtuais. Durante os dias 30 de novembro e 1 de dezembro foram discutidos, em Campinas (SP), como a inovação e a sustentabilidade precisam caminhar juntos para o desenvolvimento de um futuro inclusivo, consciente e, de fato, revolucionário.
+        Um painel inteiro foi dedicado ao SENAI Nacional a fim de apresentar missões realizadas de maneira integrada com a CTG Brasil para a produção de hidrogênio verde; com a Eletronorte, para diversificar e socializar a energia elétrica com a Balbina SmartGreen Connection; com a Suzano, para alavancar soluções em embalagens celulósicas; e com o Grupo Petrópolis, para aumentar o aproveitamento de vidro em toda a cadeia, desde a indústria até o consumidor. 
+        </corpo1>
+     
+    </corpo>
+     <corpo codigo="4">
+        <titulo1>Ministério da Economia divulga documento que consolida as políticas voltadas às MPEs e à indústria brasileira</titulo1>
+        <corpo1>As ações executadas, desde o início de 2019, focadas na melhoria do ambiente econômico, aumento da competitividade e da produtividade, que contaram de forma direta ou indireta com a participação da Secretaria Especial de Produtividade e Competitividade do Ministério da Economia (Sepec/ME), estão consolidadas no documento “Política Brasileira para Competitividade e Produtividade 2019–2022”, divulgado nesta segunda-feira(14/11). É um amplo estudo da Sepec para facilitar o processo de transição de governo.
+        O trabalho foi construído sob sete linhas-mestras (que formam os capítulos da publicação): estímulo a investimentos privados; simplificação de procedimentos, com a maior confiança nos cidadãos e empresas; facilitação e ampliação do acesso ao crédito; ampliação e melhor direcionamento dos incentivos à inovação; melhoria da capacidade de concorrência internacional; melhoria do ambiente regulatório; e, por fim, melhoria do ambiente de trabalho.
+        Na elaboração desse balanço foram considerados 330 atos normativos publicados no Diário Oficial da União (DOU) desde o início de 2019, considerando as ações que envolveram a Sepec (que tem atuação transversal, em interlocução constante com outras Secretarias Especiais de todo o ME). Todo esse conjunto de medidas gerou um saldo de simplificação, maior previsibilidade e ampliação da concorrência para a economia brasileira, aponta o secretário especial adjunto de Produtividade e Competitividade do ME, Marcelo Varella.
+        Varella destaca que o documento mostra, de forma clara, os impactos desse conjunto de ações para a economia nacional e a importância da continuidade das medidas implantadas. Ele destaca que as medidas geraram efeitos positivos concretos sobre o ambiente de negócios, competitividade e produtividade, geração de emprego e renda.</corpo1>
+    </corpo>
+   
 </wraaper>

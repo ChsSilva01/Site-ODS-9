@@ -37,6 +37,16 @@
     font-size: 60px;
     line-height: 97px;
 }
+
+#tittle1{
+    text-align: center;
+    color: #ffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 97px;
+}
 .text{
     padding-left: 10px;
     color: #ffff;
